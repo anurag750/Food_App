@@ -2,8 +2,8 @@ import React, { useState, useEffect } from "react";
 import Recipe from "./Recipe";
 import "./App.css";
 function App() {
-  const APP_ID = "";
-  const APP_KEY = "";
+  const APP_ID = "69a26ae0";
+  const APP_KEY = "299fe2ce0d5bb4aab2cb1ea0a3e4bbad";
 
   const [recipes, setrecipes] = useState([]);
   const [search, setsearch] = useState("");
